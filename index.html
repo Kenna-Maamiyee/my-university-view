@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>University Opinion</title>
+</head>
+<body>
+  <h1>Should You Join University?</h1>
+  <p id="message"></p>
+
+  <script>
+    // This script expresses a personal opinion about university education
+    function universityOpinion() {
+      const systemMessage = "Joining university and studying a subject is generally considered a good path.";
+      const personalView = " However, I personally don't recommend it for everyone. It depends on your goals and learning style.";
+      return systemMessage + personalView;
+    }
+
+    // Display the message
+    document.getElementById("message").textContent = universityOpinion();
+  </script>
+</body>
+</html>
